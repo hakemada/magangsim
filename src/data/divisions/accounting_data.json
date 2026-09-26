@@ -1,0 +1,780 @@
+[
+  {
+    "title": "Hari 1 - Sesi 1: Pengantar Akuntansi Dasar",
+    "difficulty": "Dasar",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Konsep Entitas",
+        "scenario": "Pak Budi baru saja mendirikan usaha bengkel. Ia sering mencampur uang bengkel dengan uang pribadinya.",
+        "question": "Prinsip akuntansi apa yang dilanggar oleh Pak Budi?",
+        "options": ["Prinsip Entitas Ekonomi", "Prinsip Biaya Historis", "Prinsip Kesinambungan Usaha", "Prinsip Pengungkapan Penuh"],
+        "correctAnswer": 0,
+        "correctFeedback": "Benar. Uang pribadi dan usaha harus dipisah.",
+        "wrongFeedback": "Salah, itu melanggar prinsip entitas."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Pengertian Aset",
+        "scenario": "Perusahaan membeli sebuah mesin cetak untuk digunakan selama 5 tahun ke depan.",
+        "question": "Masuk ke dalam kategori apakah mesin cetak tersebut?",
+        "options": ["Beban operasional", "Aset tetap", "Aset lancar", "Kewajiban jangka panjang"],
+        "correctAnswer": 1,
+        "correctFeedback": "Tepat sekali, mesin adalah aset tetap.",
+        "wrongFeedback": "Kurang tepat."
+      },
+      {
+        "type": "written",
+        "title": "Tujuan Akuntansi",
+        "scenario": "Seorang investor ingin menanamkan modal di PT Maju Mundur.",
+        "question": "Sebutkan tujuan utama laporan keuangan bagi investor!",
+        "minLength": 5,
+        "keywords": ["informasi", "keputusan", "keuangan"],
+        "correctFeedback": "Jawaban yang bagus.",
+        "improvementTip": "Gunakan istilah pengambilan keputusan.",
+        "exampleAnswer": "Memberikan informasi keuangan untuk pengambilan keputusan."
+      }
+    ]
+  },
+  {
+    "title": "Hari 1 - Sesi 2: Persamaan Dasar Akuntansi",
+    "difficulty": "Dasar",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Persamaan Dasar",
+        "scenario": "Diketahui Aset perusahaan sebesar Rp 100.000.000 dan Kewajiban Rp 40.000.000.",
+        "question": "Berapakah besarnya Ekuitas perusahaan?",
+        "options": ["Rp 60.000.000", "Rp 140.000.000", "Rp 40.000.000", "Rp 100.000.000"],
+        "correctAnswer": 0,
+        "correctFeedback": "Benar, Ekuitas = Aset - Kewajiban.",
+        "wrongFeedback": "Hitung kembali selisihnya."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Dampak Transaksi",
+        "scenario": "Perusahaan membeli perlengkapan secara tunai seharga Rp 5.000.000.",
+        "question": "Bagaimana dampaknya terhadap persamaan dasar akuntansi?",
+        "options": ["Aset bertambah, Kewajiban bertambah", "Aset Kas berkurang, Aset Perlengkapan bertambah", "Aset bertambah, Ekuitas berkurang", "Aset Kas berkurang, Ekuitas berkurang"],
+        "correctAnswer": 1,
+        "correctFeedback": "Betul, ini pergeseran antar aset.",
+        "wrongFeedback": "Perhatikan bahwa kas dan perlengkapan sama-sama aset."
+      },
+      {
+        "type": "written",
+        "title": "Pengaruh Pendapatan",
+        "scenario": "Perusahaan menerima pendapatan jasa sebesar Rp 10.000.000 secara tunai.",
+        "question": "Jelaskan efeknya pada persamaan akuntansi!",
+        "minLength": 5,
+        "keywords": ["aset", "kas", "ekuitas", "bertambah"],
+        "correctFeedback": "Luar biasa.",
+        "improvementTip": "Sebutkan kas dan ekuitas.",
+        "exampleAnswer": "Kas bertambah dan ekuitas bertambah karena pendapatan."
+      }
+    ]
+  },
+  {
+    "title": "Hari 1 - Sesi 3: Pengenalan Bukti Transaksi",
+    "difficulty": "Dasar",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Faktur",
+        "scenario": "Perusahaan membeli barang dagangan secara kredit.",
+        "question": "Bukti transaksi apa yang biasanya diterima?",
+        "options": ["Kuitansi", "Nota Kontan", "Faktur", "Cek"],
+        "correctAnswer": 2,
+        "correctFeedback": "Faktur digunakan untuk transaksi kredit.",
+        "wrongFeedback": "Ingat ini transaksi kredit."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Bukti Kas Keluar",
+        "scenario": "Perusahaan membayar tagihan listrik bulan ini.",
+        "question": "Dokumen internal apa yang harus disiapkan?",
+        "options": ["Bukti Kas Masuk", "Bukti Kas Keluar", "Memo", "Faktur Penjualan"],
+        "correctAnswer": 1,
+        "correctFeedback": "Tepat, untuk setiap pengeluaran kas.",
+        "wrongFeedback": "Karena uang keluar, maka bukti kas keluar."
+      },
+      {
+        "type": "written",
+        "title": "Pentingnya Bukti",
+        "scenario": "Ada transaksi yang dicatat namun tidak ada buktinya.",
+        "question": "Mengapa setiap pencatatan harus dilampiri bukti transaksi?",
+        "minLength": 5,
+        "keywords": ["validitas", "bukti", "audit", "pertanggungjawaban"],
+        "correctFeedback": "Sangat tepat.",
+        "improvementTip": "Sebutkan tentang validitas atau audit.",
+        "exampleAnswer": "Sebagai bukti sah dan pendukung kebenaran pencatatan saat audit."
+      }
+    ]
+  },
+  {
+    "title": "Hari 2 - Sesi 4: Aturan Debit Kredit",
+    "difficulty": "Menengah",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Saldo Normal Aset",
+        "scenario": "Saldo awal kas adalah Rp 50.000.000 di debit.",
+        "question": "Jika kas bertambah, dicatat di sebelah mana?",
+        "options": ["Kredit", "Debit", "Bisa keduanya", "Tergantung jenis kas"],
+        "correctAnswer": 1,
+        "correctFeedback": "Aset bertambah di debit.",
+        "wrongFeedback": "Ingat saldo normal aset."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Saldo Normal Beban",
+        "scenario": "Terjadi pembayaran gaji karyawan.",
+        "question": "Akun Beban Gaji akan dicatat di sisi?",
+        "options": ["Debit", "Kredit", "Neraca", "Laporan Ekuitas"],
+        "correctAnswer": 0,
+        "correctFeedback": "Beban bertambah di debit.",
+        "wrongFeedback": "Beban saldo normalnya debit."
+      },
+      {
+        "type": "written",
+        "title": "Analisis Utang",
+        "scenario": "Perusahaan melunasi utang bank.",
+        "question": "Jelaskan aturan debit/kredit untuk pelunasan utang ini!",
+        "minLength": 5,
+        "keywords": ["utang", "debit", "kas", "kredit"],
+        "correctFeedback": "Tepat sekali analisisnya.",
+        "improvementTip": "Jelaskan posisi utang dan kas.",
+        "exampleAnswer": "Utang berkurang di debit, dan kas berkurang di kredit."
+      }
+    ]
+  },
+  {
+    "title": "Hari 2 - Sesi 5: Jurnal Umum",
+    "difficulty": "Menengah",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Pencatatan Modal",
+        "scenario": "Pemilik menyetorkan uang tunai Rp 100 juta sebagai modal awal.",
+        "question": "Bagaimana jurnalnya?",
+        "options": ["Kas (D) 100jt, Modal (K) 100jt", "Modal (D) 100jt, Kas (K) 100jt", "Kas (D) 100jt, Pendapatan (K) 100jt", "Piutang (D) 100jt, Modal (K) 100jt"],
+        "correctAnswer": 0,
+        "correctFeedback": "Kas bertambah, Modal bertambah.",
+        "wrongFeedback": "Perhatikan aturan debit kredit modal."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Pembelian Kredit",
+        "scenario": "Dibeli peralatan kantor Rp 10 juta, baru dibayar Rp 2 juta, sisanya bulan depan.",
+        "question": "Berapa nilai Utang Usaha yang dicatat di kredit?",
+        "options": ["Rp 2 juta", "Rp 10 juta", "Rp 12 juta", "Rp 8 juta"],
+        "correctAnswer": 3,
+        "correctFeedback": "Utang = 10jt - 2jt = 8jt.",
+        "wrongFeedback": "Kurangkan harga total dengan yang sudah dibayar."
+      },
+      {
+        "type": "written",
+        "title": "Jurnal Pembayaran Sewa",
+        "scenario": "Dibayar sewa gedung untuk 1 bulan sebesar Rp 5.000.000.",
+        "question": "Tuliskan nama akun yang di-debit dan di-kredit!",
+        "minLength": 5,
+        "keywords": ["Beban Sewa", "Kas"],
+        "correctFeedback": "Benar sekali.",
+        "improvementTip": "Sebutkan beban sewa dan kas.",
+        "exampleAnswer": "Beban Sewa di debit dan Kas di kredit."
+      }
+    ]
+  },
+  {
+    "title": "Hari 2 - Sesi 6: Buku Besar (Posting)",
+    "difficulty": "Menengah",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Fungsi Buku Besar",
+        "scenario": "Akuntan telah selesai membuat Jurnal Umum selama satu bulan.",
+        "question": "Langkah selanjutnya dalam siklus akuntansi adalah memindahkan data ke mana?",
+        "options": ["Neraca Saldo", "Laporan Keuangan", "Buku Besar", "Jurnal Penyesuaian"],
+        "correctAnswer": 2,
+        "correctFeedback": "Posting ke buku besar adalah langkah selanjutnya.",
+        "wrongFeedback": "Setelah jurnal adalah buku besar."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Bentuk Buku Besar",
+        "scenario": "Sebuah perusahaan menggunakan format buku besar yang memiliki kolom tanggal, keterangan, ref, debit, kredit, dan saldo.",
+        "question": "Disebut apakah bentuk buku besar tersebut?",
+        "options": ["Bentuk T", "Bentuk Skontro", "Bentuk Staffel", "Bentuk Jurnal"],
+        "correctAnswer": 2,
+        "correctFeedback": "Staffel memiliki kolom saldo bergulir.",
+        "wrongFeedback": "Cari tahu perbedaan bentuk T dan Staffel."
+      },
+      {
+        "type": "written",
+        "title": "Proses Posting",
+        "scenario": "Ada transaksi debit Kas Rp 5 juta di Jurnal Umum.",
+        "question": "Jelaskan langkah mem-posting transaksi tersebut ke Buku Besar Kas!",
+        "minLength": 5,
+        "keywords": ["tanggal", "ref", "debit", "saldo"],
+        "correctFeedback": "Mantap.",
+        "improvementTip": "Sebutkan mengisi tanggal dan memindahkan nominal.",
+        "exampleAnswer": "Catat tanggal, pindahkan nominal 5 juta ke sisi debit akun Kas, lalu perbarui saldo."
+      }
+    ]
+  },
+  {
+    "title": "Hari 3 - Sesi 7: Neraca Saldo",
+    "difficulty": "Menengah",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Tujuan Neraca Saldo",
+        "scenario": "Semua akun di buku besar telah dijumlahkan saldonya.",
+        "question": "Apa tujuan penyusunan neraca saldo?",
+        "options": ["Menguji keseimbangan debit dan kredit", "Menghitung laba rugi", "Melaporkan kekayaan", "Menghitung pajak"],
+        "correctAnswer": 0,
+        "correctFeedback": "Benar, untuk verifikasi matematis.",
+        "wrongFeedback": "Neraca saldo adalah alat uji."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Ketidakseimbangan",
+        "scenario": "Total debit Neraca Saldo Rp 150.000.000 dan kredit Rp 140.000.000.",
+        "question": "Manakah yang mungkin menjadi penyebabnya?",
+        "options": ["Lupa mencatat satu transaksi penuh", "Mencatat debit Rp 10.000.000 tapi lupa mencatat kreditnya", "Laba terlalu kecil", "Menjual rugi"],
+        "correctAnswer": 1,
+        "correctFeedback": "Lupa satu sisi jurnal menyebabkan tidak balance.",
+        "wrongFeedback": "Pikirkan kesalahan posting."
+      },
+      {
+        "type": "written",
+        "title": "Penanganan Error",
+        "scenario": "Saat menyusun Neraca Saldo, ditemukan selisih Rp 90.000.",
+        "question": "Apa kemungkinan kesalahan yang terjadi jika selisihnya habis dibagi 9?",
+        "minLength": 5,
+        "keywords": ["transposisi", "slide", "angka"],
+        "correctFeedback": "Ya, itu adalah kesalahan transposisi.",
+        "improvementTip": "Sebutkan istilah transposisi angka.",
+        "exampleAnswer": "Terjadi kesalahan transposisi angka, misalnya salah ketik 190.000 jadi 100.000."
+      }
+    ]
+  },
+  {
+    "title": "Hari 3 - Sesi 8: Jurnal Penyesuaian 1",
+    "difficulty": "Menengah",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Perlengkapan",
+        "scenario": "Saldo Perlengkapan di Neraca Saldo Rp 10.000.000. Sisa akhir tahun Rp 3.000.000.",
+        "question": "Berapa beban perlengkapan yang dicatat?",
+        "options": ["Rp 3.000.000", "Rp 7.000.000", "Rp 10.000.000", "Rp 13.000.000"],
+        "correctAnswer": 1,
+        "correctFeedback": "Beban = 10jt - 3jt = 7jt.",
+        "wrongFeedback": "Beban adalah yang terpakai."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Sewa Dibayar Dimuka",
+        "scenario": "Dicatat Sewa Dibayar Dimuka Rp 12.000.000 pada 1 Oktober untuk 1 tahun.",
+        "question": "Berapa beban sewa per 31 Desember tahun yang sama?",
+        "options": ["Rp 1.000.000", "Rp 2.000.000", "Rp 3.000.000", "Rp 12.000.000"],
+        "correctAnswer": 2,
+        "correctFeedback": "3 bulan terpakai (Okt, Nov, Des), 3/12 x 12jt = 3jt.",
+        "wrongFeedback": "Hitung jumlah bulan dari Oktober ke Desember."
+      },
+      {
+        "type": "written",
+        "title": "Penyusutan",
+        "scenario": "Kendaraan seharga Rp 100.000.000 disusutkan Rp 10.000.000 tahun ini.",
+        "question": "Bagaimana bunyi jurnal penyesuaiannya?",
+        "minLength": 5,
+        "keywords": ["Beban Penyusutan", "Akumulasi Penyusutan"],
+        "correctFeedback": "Benar.",
+        "improvementTip": "Gunakan akun beban dan akumulasi.",
+        "exampleAnswer": "Beban Penyusutan Kendaraan (D) 10.000.000 dan Akumulasi Penyusutan Kendaraan (K) 10.000.000."
+      }
+    ]
+  },
+  {
+    "title": "Hari 3 - Sesi 9: Jurnal Penyesuaian 2",
+    "difficulty": "Menengah",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Pendapatan Diterima Dimuka",
+        "scenario": "Diterima uang muka proyek Rp 20.000.000. Akhir tahun proyek selesai 50%.",
+        "question": "Berapa pendapatan yang diakui?",
+        "options": ["Rp 20.000.000", "Rp 10.000.000", "Rp 5.000.000", "Rp 0"],
+        "correctAnswer": 1,
+        "correctFeedback": "50% dari 20jt adalah 10jt.",
+        "wrongFeedback": "Kalikan persentase dengan total."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Gaji yang Masih Harus Dibayar",
+        "scenario": "Perusahaan belum membayar gaji karyawan bulan Desember sebesar Rp 15.000.000.",
+        "question": "Akun apa yang dikredit pada jurnal penyesuaian?",
+        "options": ["Kas", "Beban Gaji", "Utang Gaji", "Piutang Gaji"],
+        "correctAnswer": 2,
+        "correctFeedback": "Utang Gaji timbul karena belum dibayar.",
+        "wrongFeedback": "Kewajiban bertambah dicatat di kredit."
+      },
+      {
+        "type": "written",
+        "title": "Pendapatan yang Masih Harus Diterima",
+        "scenario": "Bunga bank bulan Desember sebesar Rp 500.000 belum dicairkan oleh bank.",
+        "question": "Buatlah jurnal penyesuaiannya!",
+        "minLength": 5,
+        "keywords": ["Piutang Bunga", "Pendapatan Bunga"],
+        "correctFeedback": "Tepat.",
+        "improvementTip": "Sebutkan piutang di debit, pendapatan di kredit.",
+        "exampleAnswer": "Piutang Bunga (D) 500.000 dan Pendapatan Bunga (K) 500.000."
+      }
+    ]
+  },
+  {
+    "title": "Hari 4 - Sesi 10: Neraca Lajur (Worksheet)",
+    "difficulty": "Menengah",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Kolom Neraca Lajur",
+        "scenario": "Akuntan membuat neraca lajur 10 kolom.",
+        "question": "Kolom manakah yang digunakan untuk memindahkan saldo akun Pendapatan Jasa?",
+        "options": ["Neraca Saldo Disesuaikan dan Neraca", "Laba Rugi", "Laporan Ekuitas", "Hanya Penyesuaian"],
+        "correctAnswer": 1,
+        "correctFeedback": "Pendapatan dipindah ke kolom Laba Rugi.",
+        "wrongFeedback": "Akun nominal masuk laba rugi."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Mengetahui Laba/Rugi",
+        "scenario": "Total kolom kredit Laba Rugi Rp 80.000.000 dan total debit Rp 60.000.000.",
+        "question": "Apa kesimpulannya?",
+        "options": ["Rugi Rp 20.000.000", "Laba Rp 20.000.000", "Balance", "Salah hitung"],
+        "correctAnswer": 1,
+        "correctFeedback": "Kredit (Pendapatan) > Debit (Beban), maka Laba.",
+        "wrongFeedback": "Kredit laba rugi adalah pendapatan."
+      },
+      {
+        "type": "written",
+        "title": "Fungsi Neraca Lajur",
+        "scenario": "Neraca lajur hanyalah alat bantu tidak resmi.",
+        "question": "Sebutkan manfaat utama membuat neraca lajur sebelum laporan keuangan resmi!",
+        "minLength": 5,
+        "keywords": ["mempermudah", "penyusunan", "laporan", "keuangan"],
+        "correctFeedback": "Benar.",
+        "improvementTip": "Sebutkan sebagai draf untuk memudahkan.",
+        "exampleAnswer": "Mempermudah penyusunan laporan keuangan dan meminimalisir kesalahan."
+      }
+    ]
+  },
+  {
+    "title": "Hari 4 - Sesi 11: Laporan Laba Rugi",
+    "difficulty": "Menengah",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Komponen Laba Rugi",
+        "scenario": "Perusahaan dagang menghitung Harga Pokok Penjualan.",
+        "question": "Di mana letak HPP dalam Laporan Laba Rugi Multiple Step?",
+        "options": ["Setelah laba kotor", "Sebagai pengurang Penjualan Bersih", "Bagian dari beban administrasi", "Di luar operasional"],
+        "correctAnswer": 1,
+        "correctFeedback": "Penjualan Bersih - HPP = Laba Kotor.",
+        "wrongFeedback": "HPP mengurangi penjualan bersih."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Laba Operasional",
+        "scenario": "Laba kotor Rp 50.000.000, Beban Operasional Rp 30.000.000, Pendapatan Bunga Rp 2.000.000.",
+        "question": "Berapa Laba Operasionalnya?",
+        "options": ["Rp 50.000.000", "Rp 20.000.000", "Rp 22.000.000", "Rp 18.000.000"],
+        "correctAnswer": 1,
+        "correctFeedback": "Laba kotor - Beban Operasional = 20jt.",
+        "wrongFeedback": "Pendapatan bunga itu di luar operasional."
+      },
+      {
+        "type": "written",
+        "title": "Single Step vs Multiple Step",
+        "scenario": "Manajemen meminta laporan laba rugi yang mendetail antara kegiatan utama dan sampingan.",
+        "question": "Bentuk laporan laba rugi apa yang harus Anda gunakan?",
+        "minLength": 5,
+        "keywords": ["multiple", "step"],
+        "correctFeedback": "Benar.",
+        "improvementTip": "Gunakan istilah multiple step.",
+        "exampleAnswer": "Laporan Laba Rugi Multiple Step (Bentuk Berganda)."
+      }
+    ]
+  },
+  {
+    "title": "Hari 4 - Sesi 12: Laporan Perubahan Ekuitas & Neraca",
+    "difficulty": "Menengah",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Modal Akhir",
+        "scenario": "Modal awal Rp 100jt, Laba Bersih Rp 20jt, Prive Rp 5jt.",
+        "question": "Berapa Modal Akhirnya?",
+        "options": ["Rp 120.000.000", "Rp 115.000.000", "Rp 125.000.000", "Rp 95.000.000"],
+        "correctAnswer": 1,
+        "correctFeedback": "100 + 20 - 5 = 115jt.",
+        "wrongFeedback": "Laba menambah, prive mengurangi modal."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Klasifikasi Neraca",
+        "scenario": "Perusahaan memiliki paten senilai Rp 50.000.000.",
+        "question": "Di mana paten diklasifikasikan dalam neraca?",
+        "options": ["Aset Lancar", "Aset Tetap Berwujud", "Aset Tak Berwujud", "Ekuitas"],
+        "correctAnswer": 2,
+        "correctFeedback": "Paten adalah aset tak berwujud.",
+        "wrongFeedback": "Paten tidak memiliki wujud fisik."
+      },
+      {
+        "type": "written",
+        "title": "Persamaan Neraca",
+        "scenario": "Total Aset Lancar Rp 60jt, Aset Tetap Rp 140jt, Total Kewajiban Rp 80jt.",
+        "question": "Berapa total Ekuitas di Neraca tersebut?",
+        "minLength": 5,
+        "keywords": ["120"],
+        "correctFeedback": "Betul sekali.",
+        "improvementTip": "Total aset dikurangi total kewajiban.",
+        "exampleAnswer": "Total Aset (200jt) - Kewajiban (80jt) = Ekuitas sebesar Rp 120.000.000."
+      }
+    ]
+  },
+  {
+    "title": "Hari 5 - Sesi 13: Excel - Daftar Gaji Karyawan",
+    "difficulty": "Mudah (Excel)",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Menghitung Tunjangan",
+        "scenario": "Data Gaji Karyawan:\n| A | B (Gol) | C (Gapok) | D (Tunjangan) |\n|---|---|---|---|\n| 1 | Gol 1 | 5000000 | ? |\n| 2 | Gol 2 | 6000000 | ? |\n\nTunjangan adalah 10% dari Gaji Pokok.",
+        "question": "Formula Excel yang tepat untuk sel D2 adalah?",
+        "options": ["=C2*0.1", "=B2*10%", "=SUM(C2*10%)", "=C2/10"],
+        "correctAnswer": 0,
+        "correctFeedback": "Benar, kali dengan 0.1 atau 10%.",
+        "wrongFeedback": "Cek sel gaji pokok (C2)."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Total Gaji",
+        "scenario": "Data Gaji Karyawan:\n| C (Gapok) | D (Tunjangan) | E (Potongan) | F (Take Home Pay) |\n|---|---|---|---|\n| 5000000 | 500000 | 200000 | ? |\n",
+        "question": "Formula yang tepat di F2?",
+        "options": ["=C2+D2+E2", "=C2-D2-E2", "=C2+D2-E2", "=SUM(C2:E2)"],
+        "correctAnswer": 2,
+        "correctFeedback": "Gapok + Tunjangan - Potongan.",
+        "wrongFeedback": "Potongan harus mengurangi."
+      },
+      {
+        "type": "written",
+        "title": "Tunjangan Transport Bersyarat",
+        "scenario": "Tabel Data Karyawan:\n| A | B (Jabatan) | C (Transport) |\n|---|---|---|\n| 2 | Manager | ? |\n\nKetentuan: Jika Jabatan \"Manager\", Transport 1000000, jika tidak 500000.",
+        "question": "Tuliskan rumus di sel C2!",
+        "minLength": 5,
+        "keywords": ["=IF(", "B2=\"Manager\"", "1000000", "500000"],
+        "correctFeedback": "Tepat menggunakan IF.",
+        "improvementTip": "Gunakan fungsi IF.",
+        "exampleAnswer": "=IF(B2=\"Manager\",1000000,500000)"
+      }
+    ]
+  },
+  {
+    "title": "Hari 5 - Sesi 14: Excel - Jurnal Umum Lanjutan",
+    "difficulty": "Menengah (Excel)",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Mencari Nama Akun",
+        "scenario": "Tabel Jurnal:\n| A (Kode) | B (Nama Akun) |\n|---|---|\n| 111 | ? |\n\nTabel Referensi (Sheet2 A1:B10) berisi Kode dan Nama Akun.",
+        "question": "Formula untuk mengambil Nama Akun di B2 secara otomatis?",
+        "options": ["=HLOOKUP(A2,Sheet2!A1:B10,2,0)", "=VLOOKUP(A2,Sheet2!A1:B10,2,0)", "=MATCH(A2,Sheet2!A1:B10,0)", "=INDEX(Sheet2!A1:B10,A2)"],
+        "correctAnswer": 1,
+        "correctFeedback": "VLOOKUP sangat cocok untuk data vertikal.",
+        "wrongFeedback": "Tabel referensi bentuk vertikal."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Validasi Kode Akun",
+        "scenario": "Tabel Jurnal:\n| A (Kode Akun) |\n|---|\n| 111 |\n\nAnda ingin kolom Kode Akun hanya bisa diisi dari list tertentu.",
+        "question": "Fitur Excel apa yang paling tepat digunakan?",
+        "options": ["Conditional Formatting", "Data Validation", "Goal Seek", "Data Table"],
+        "correctAnswer": 1,
+        "correctFeedback": "Data Validation tipe List.",
+        "wrongFeedback": "Fitur ini ada di tab Data."
+      },
+      {
+        "type": "written",
+        "title": "Total Debit Per Akun",
+        "scenario": "Tabel Jurnal (A: Kode, C: Debit):\n| A (Kode) | C (Debit) |\n|---|---|\n| 111 | 10000 |\n| 111 | 20000 |\n\nIngin menjumlah total debit khusus kode '111'.",
+        "question": "Tuliskan rumus untuk merekap total debit kode 111!",
+        "minLength": 5,
+        "keywords": ["=SUMIF("],
+        "correctFeedback": "Sempurna menggunakan SUMIF.",
+        "improvementTip": "Gunakan fungsi SUMIF.",
+        "exampleAnswer": "=SUMIF(A:A, 111, C:C)"
+      }
+    ]
+  },
+  {
+    "title": "Hari 5 - Sesi 15: Excel - Kartu Persediaan Barang",
+    "difficulty": "Sulit (Excel)",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Saldo Akhir Unit",
+        "scenario": "Tabel Persediaan:\n| A (Tgl) | B (Masuk) | C (Keluar) | D (Saldo Unit) |\n|---|---|---|---|\n| 1 | 100 | 0 | 100 |\n| 2 | 50 | 30 | ? |\n",
+        "question": "Formula di sel D3 (baris 2 pada data) yang dinamis?",
+        "options": ["=D2+B3-C3", "=SUM(B2:C3)", "=B3-C3", "=D2-B3+C3"],
+        "correctAnswer": 0,
+        "correctFeedback": "Saldo sebelumnya + Masuk - Keluar.",
+        "wrongFeedback": "Logika persediaan: Saldo awal + Beli - Jual."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Rata-Rata Bergerak (Moving Average)",
+        "scenario": "Tabel Persediaan (Metode Average):\n| A (Tgl) | B (Unit Beli) | C (Harga/Unit) | D (Total Beli) | E (Saldo Unit) | F (Saldo Rp) | G (HPP/Unit) |\n\nPembelian baru mengubah HPP/Unit.",
+        "question": "Bagaimana rumus HPP/Unit (G3) setelah pembelian baru?",
+        "options": ["=F3/E3", "=C3", "=AVERAGE(C2:C3)", "=D3/B3"],
+        "correctAnswer": 0,
+        "correctFeedback": "Total Nilai Persediaan / Total Unit Persediaan.",
+        "wrongFeedback": "Harga rata-rata adalah nilai total bagi unit total."
+      },
+      {
+        "type": "written",
+        "title": "Nilai Persediaan FIFO",
+        "scenario": "Tabel FIFO:\nSisa barang 100 unit. Pembelian terakhir: 60 unit @1000, sebelumnya 50 unit @900.\nAnda perlu mengambil nilai dari 2 layer secara otomatis.",
+        "question": "Fungsi apa yang biasanya dikombinasikan di Excel untuk membuat kartu stok FIFO terotomatisasi secara kompleks?",
+        "minLength": 5,
+        "keywords": ["IF", "MIN", "MAX"],
+        "correctFeedback": "Benar, kombinasi fungsi logika sangat dibutuhkan.",
+        "improvementTip": "Sebutkan IF atau MIN/MAX.",
+        "exampleAnswer": "Biasanya memadukan fungsi IF bersarang dengan MIN/MAX untuk melacak sisa layer."
+      }
+    ]
+  },
+  {
+    "title": "Hari 6 - Sesi 16: Excel - Buku Kas Kecil",
+    "difficulty": "Mudah (Excel)",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Sisa Dana Kas Kecil",
+        "scenario": "Tabel Kas Kecil:\n| A (Tgl) | B (Penerimaan) | C (Pengeluaran) | D (Saldo) |\n|---|---|---|---|\n| 1 | 2000000 | 0 | 2000000 |\n| 2 | 0 | 150000 | ? |\n",
+        "question": "Formula di D3 adalah?",
+        "options": ["=D2-C3", "=D2+B3-C3", "=B3-C3", "=SUM(C:C)"],
+        "correctAnswer": 1,
+        "correctFeedback": "Saldo awal + Penerimaan - Pengeluaran.",
+        "wrongFeedback": "Hitung semua pergerakan."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Kategori Pengeluaran",
+        "scenario": "Tabel Kas Kecil memiliki kolom E (Kategori). Anda ingin melihat total pengeluaran untuk 'Konsumsi'.",
+        "question": "Fitur Excel apa yang cepat untuk menampilkan rekap per kategori?",
+        "options": ["Pivot Table", "VLOOKUP", "Format Painter", "Text to Columns"],
+        "correctAnswer": 0,
+        "correctFeedback": "Pivot Table sangat cepat merekap.",
+        "wrongFeedback": "Alat rekapitulasi data terbaik di Excel."
+      },
+      {
+        "type": "written",
+        "title": "Peringatan Saldo Minim",
+        "scenario": "Kolom D (Saldo Kas Kecil). Jika saldo di bawah Rp 500.000, sel harus otomatis berwarna merah.",
+        "question": "Sebutkan nama fitur yang harus digunakan!",
+        "minLength": 5,
+        "keywords": ["Conditional Formatting"],
+        "correctFeedback": "Tepat sekali.",
+        "improvementTip": "Sebutkan Conditional Formatting.",
+        "exampleAnswer": "Menggunakan fitur Conditional Formatting."
+      }
+    ]
+  },
+  {
+    "title": "Hari 6 - Sesi 17: Excel - Rekonsiliasi Bank Dasar",
+    "difficulty": "Menengah (Excel)",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Mencocokkan Transaksi",
+        "scenario": "Kolom A: Nominal Buku Perusahaan, Kolom D: Nominal Rekening Koran.\nIngin mengecek apakah nilai di A2 sama persis dengan D2.",
+        "question": "Formula apa yang menghasilkan TRUE/FALSE?",
+        "options": ["=EXACT(A2,D2)", "=A2=D2", "Kedua jawaban benar", "=MATCH(A2,D2)"],
+        "correctAnswer": 2,
+        "correctFeedback": "Keduanya bisa mengecek kesamaan nilai.",
+        "wrongFeedback": "Tanda sama dengan dan EXACT berfungsi serupa untuk angka."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Mencari Cek Beredar",
+        "scenario": "Daftar cek dikeluarkan (Kolom B). Anda ingin mencari cek nomor '123' di Rekening Koran (Kolom F).",
+        "question": "Formula untuk mengecek keberadaan cek di Kolom F?",
+        "options": ["=COUNTIF(F:F, B2)", "=SUM(F:F)", "=IF(B2=F2)", "=AVERAGEIF(F:F,B2)"],
+        "correctAnswer": 0,
+        "correctFeedback": "Jika COUNTIF > 0 berarti cek sudah dicairkan.",
+        "wrongFeedback": "Hitung jumlah kemunculan nomor cek."
+      },
+      {
+        "type": "written",
+        "title": "Saldo Disesuaikan",
+        "scenario": "Saldo Bank di B1 = 10jt. Deposit in transit di B2 = 2jt. Outstanding Check di B3 = 1.5jt.",
+        "question": "Tuliskan rumus Saldo Bank Disesuaikan di sel B4!",
+        "minLength": 5,
+        "keywords": ["=B1+B2-B3"],
+        "correctFeedback": "Sangat tepat.",
+        "improvementTip": "Tambahkan DIT dan kurangi OC.",
+        "exampleAnswer": "=B1+B2-B3"
+      }
+    ]
+  },
+  {
+    "title": "Hari 6 - Sesi 18: Excel - Rekonsiliasi Lanjutan",
+    "difficulty": "Sulit (Excel)",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Identifikasi Selisih",
+        "scenario": "Kolom C (Saldo Perusahaan), Kolom G (Saldo Bank). Anda ingin memunculkan selisih absolut.",
+        "question": "Formula yang tepat?",
+        "options": ["=ABS(C2-G2)", "=C2-G2", "=MIN(C2,G2)", "=IFERROR(C2-G2)"],
+        "correctAnswer": 0,
+        "correctFeedback": "ABS mengubah angka negatif jadi positif (mutlak).",
+        "wrongFeedback": "Fungsi Absolute (ABS)."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Otomatisasi Tanda Cek",
+        "scenario": "Tabel Buku Kas (C: Status). Jika =COUNTIF(RekeningKoran!A:A, NoCek) > 0, maka muncul 'Cleared', jika tidak 'Outstanding'.",
+        "question": "Bagaimana rumus IF-nya?",
+        "options": ["=IF(COUNTIF(...)>0, \"Cleared\", \"Outstanding\")", "=IF(COUNTIF(...)<0, \"Outstanding\", \"Cleared\")", "=VLOOKUP(\"Cleared\", ...)", "=MATCH(\"Outstanding\")"],
+        "correctAnswer": 0,
+        "correctFeedback": "Logika IF sangat pas.",
+        "wrongFeedback": "Gunakan IF dan COUNTIF."
+      },
+      {
+        "type": "written",
+        "title": "Macro untuk Rekonsiliasi",
+        "scenario": "Ada ribuan baris transaksi. Anda menggunakan alat rekam langkah Excel untuk menyorot baris yang nilainya beda.",
+        "question": "Sebutkan fitur pemrograman di Excel untuk mengotomatisasi hal tersebut!",
+        "minLength": 5,
+        "keywords": ["Macro", "VBA"],
+        "correctFeedback": "Betul, Macro atau VBA.",
+        "improvementTip": "Sebutkan Macro atau VBA.",
+        "exampleAnswer": "Menggunakan Macro / VBA Excel."
+      }
+    ]
+  },
+  {
+    "title": "Hari 7 - Sesi 19: Excel - Penyusutan Aset Tetap",
+    "difficulty": "Mudah (Excel)",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Garis Lurus",
+        "scenario": "Tabel Aset:\nHarga Perolehan (B1): 100.000.000\nNilai Sisa (B2): 10.000.000\nUmur (B3): 5\n\nMenghitung penyusutan metode garis lurus.",
+        "question": "Fungsi bawaan Excel apa yang digunakan?",
+        "options": ["=SLN(B1,B2,B3)", "=SYD(B1,B2,B3)", "=DDB(B1,B2,B3)", "=PMT(B1,B2,B3)"],
+        "correctAnswer": 0,
+        "correctFeedback": "SLN (Straight Line) adalah fungsi yang benar.",
+        "wrongFeedback": "Cari fungsi Straight Line."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Saldo Menurun Ganda",
+        "scenario": "Data Aset yang sama di B1, B2, B3. Menghitung penyusutan tahun pertama.",
+        "question": "Fungsi Excel untuk Double Declining Balance?",
+        "options": ["=DDB(B1,B2,B3,1)", "=SLN()", "=SYD()", "=FV()"],
+        "correctAnswer": 0,
+        "correctFeedback": "DDB membutuhkan argumen periode ke berapa.",
+        "wrongFeedback": "Cari fungsi Double Declining."
+      },
+      {
+        "type": "written",
+        "title": "Akumulasi Penyusutan Berjalan",
+        "scenario": "Kolom C: Beban Penyusutan Tahun 1, 2, 3.\nKolom D: Akumulasi Penyusutan. D2 = C2.",
+        "question": "Bagaimana rumus di D3 untuk akumulasi tahun ke-2?",
+        "options": [],
+        "minLength": 5,
+        "keywords": ["=D2+C3"],
+        "correctFeedback": "Tepat.",
+        "improvementTip": "Tambahkan saldo sebelumnya dengan beban tahun ini.",
+        "exampleAnswer": "=D2+C3"
+      }
+    ]
+  },
+  {
+    "title": "Hari 7 - Sesi 20: Excel - Laporan Umur Piutang",
+    "difficulty": "Menengah (Excel)",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Menghitung Umur Hari",
+        "scenario": "Tabel Piutang:\n| C (Tgl Jatuh Tempo) |\n| 01-Nov-2023 |\n\nHari ini Tgl Laporan: D1 (01-Dec-2023).",
+        "question": "Rumus mengetahui berapa hari keterlambatan di sel D2?",
+        "options": ["=$D$1-C2", "=DAYS(C2,$D$1)", "=MONTH(D1)-MONTH(C2)", "=C2-D1"],
+        "correctAnswer": 0,
+        "correctFeedback": "Tanggal laporan dikurangi tanggal jatuh tempo menghasilkan selisih hari.",
+        "wrongFeedback": "Tanggal yang lebih besar kurangi yang lebih kecil."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Kelompok Umur",
+        "scenario": "Keterlambatan (Kolom E) = 45 hari. Kelompok 1-30, 31-60, >60.",
+        "question": "Fungsi yang bisa mengklasifikasikan umur tersebut?",
+        "options": ["=IF(E2>60,\">60\",IF(E2>30,\"31-60\",\"1-30\"))", "=VLOOKUP(E2...)", "Keduanya bisa dipakai", "=SUMIF()"],
+        "correctAnswer": 2,
+        "correctFeedback": "IF bertingkat atau VLOOKUP Approximate match bisa digunakan.",
+        "wrongFeedback": "Banyak cara menuju Roma di Excel."
+      },
+      {
+        "type": "written",
+        "title": "Rekap Umur Piutang",
+        "scenario": "Kolom F berisi Kategori Umur (\"31-60 hari\"). Kolom G berisi Nominal Piutang.\nIngin merekap total Rp untuk kategori \"31-60 hari\".",
+        "question": "Tuliskan nama rumus yang tepat beserta nama referensinya secara singkat!",
+        "minLength": 5,
+        "keywords": ["=SUMIF("],
+        "correctFeedback": "Benar sekali.",
+        "improvementTip": "Sebutkan SUMIF.",
+        "exampleAnswer": "Gunakan =SUMIF(F:F, \"31-60 hari\", G:G)"
+      }
+    ]
+  },
+  {
+    "title": "Hari 7 - Sesi 21: Excel - Dashboard Keuangan",
+    "difficulty": "Sulit (Excel)",
+    "challenges": [
+      {
+        "type": "multiple-choice",
+        "title": "Pembuatan Slicer",
+        "scenario": "Terdapat Dashboard berbasis Pivot Table untuk memantau Laba Rugi bulanan.",
+        "question": "Fitur interaktif apa yang mempermudah filtering bulan dengan sekali klik?",
+        "options": ["Slicer", "Sparklines", "Data Validation", "Macro Button"],
+        "correctAnswer": 0,
+        "correctFeedback": "Slicer adalah tombol filter visual.",
+        "wrongFeedback": "Cari fitur filter visual untuk Pivot."
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Grafik Dinamis",
+        "scenario": "Dashboard menampilkan trend pendapatan. Saat Slicer diubah, grafik ikut berubah.",
+        "question": "Apa nama grafik yang terhubung ke Pivot Table?",
+        "options": ["PivotChart", "SmartArt", "Scatter Plot", "Trendline"],
+        "correctAnswer": 0,
+        "correctFeedback": "PivotChart mengikuti filter PivotTable.",
+        "wrongFeedback": "Chart yang dibuat dari Pivot."
+      },
+      {
+        "type": "written",
+        "title": "Proteksi Dashboard",
+        "scenario": "Dashboard sudah selesai. Anda tidak ingin user merusak rumus atau layout, kecuali menekan Slicer.",
+        "question": "Fitur apa yang harus diaktifkan?",
+        "minLength": 5,
+        "keywords": ["Protect Sheet", "Protect"],
+        "correctFeedback": "Tepat.",
+        "improvementTip": "Gunakan Protect Sheet.",
+        "exampleAnswer": "Gunakan fitur Protect Sheet pada menu Review."
+      }
+    ]
+  }
+]
