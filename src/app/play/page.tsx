@@ -1253,7 +1253,7 @@ export default function PlayPage() {
           </div>
         )}
 
-        <div className="absolute bottom-4 left-1/2 z-20 -translate-x-1/2 border-2 border-white bg-[#241922] px-3 py-2 text-center text-xs text-white">
+        <div className="absolute bottom-4 left-1/2 z-20 -translate-x-1/2 bg-transparent px-3 py-2 text-center text-xs font-black tracking-widest text-[#fff1c9] drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] opacity-90">
           WASD / tombol panah untuk bergerak • E / Enter untuk interaksi
         </div>
 
