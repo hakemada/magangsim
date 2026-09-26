@@ -963,7 +963,6 @@ export const accountingDivision: Division = {
                 "title": "Akumulasi Penyusutan Berjalan",
                 "scenario": "Kolom C: Beban Penyusutan Tahun 1, 2, 3.\nKolom D: Akumulasi Penyusutan. D2 = C2.",
                 "question": "Bagaimana rumus di D3 untuk akumulasi tahun ke-2?",
-                "options": [],
                 "minLength": 5,
                 "keywords": [
                     "=D2+C3"
