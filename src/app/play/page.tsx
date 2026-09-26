@@ -948,36 +948,36 @@ export default function PlayPage() {
       <div className="fixed top-6 left-1/2 -translate-x-1/2 z-40 opacity-85 transition-opacity hover:opacity-100 flex flex-col items-center pointer-events-none">
         <div className="pointer-events-auto">
           {storySeen && (
-            : completedSessions >= 21 ? (
-            <button
-              className="mt-3 border-3 border-[#241922] bg-[#f9a8d4] px-5 py-3 font-black shadow-[4px_4px_0_#a74f7a] transition-all duration-200 hover:scale-[1.04] hover:-translate-y-0.5 hover:bg-[#fbcfe8] hover:shadow-[6px_6px_0_#241922] active:scale-[0.98]"
-              onClick={viewResults}
-            >
-              Lihat Hasil Magang →
-            </button>
-          ) : sessionEnergy <= 0 && !sessionActive ? (
-            <button
-              className="mt-3 border-3 border-[#241922] bg-[#86efac] px-5 py-3 font-black shadow-[4px_4px_0_#4a8c55] transition-all duration-200 hover:scale-[1.04] hover:-translate-y-0.5 hover:bg-[#bbf7d0] hover:shadow-[6px_6px_0_#241922] active:scale-[0.98]"
-              onClick={advanceToNextDay}
-            >
-              Lanjut ke Hari ke-{currentDay + 1} (+Pulihkan Energy Harian) →
-            </button>
-          ) : sessionActive ? (
-            <div className="mt-3 inline-block border-3 border-[#241922] bg-[#4fc7bd] px-5 py-3 font-black text-[#241922] shadow-[4px_4px_0_#1f6f68]">
-              ⏱ Sesi Aktif • {formatTime(sessionSecondsLeft)}
-            </div>
-          ) : (
-            <button
-              className="mt-3 border-3 border-[#241922] bg-[#f6c85f] px-5 py-3 font-black shadow-[4px_4px_0_#b17732] transition-all duration-200 enabled:hover:scale-[1.04] enabled:hover:-translate-y-0.5 enabled:hover:bg-[#fbd373] enabled:hover:shadow-[6px_6px_0_#241922] enabled:active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50"
-              onClick={startSession}
-              disabled={sessionEnergy <= 0 || !selectedDivision}
-            >
-              {`Mulai Sesi ${completedSessions + 1} • 07:00 (-1 Energy Sesi)`}
-            </button>
+            completedSessions >= 21 ? (
+              <button
+                className="mt-3 border-3 border-[#241922] bg-[#f9a8d4] px-5 py-3 font-black shadow-[4px_4px_0_#a74f7a] transition-all duration-200 hover:scale-[1.04] hover:-translate-y-0.5 hover:bg-[#fbcfe8] hover:shadow-[6px_6px_0_#241922] active:scale-[0.98]"
+                onClick={viewResults}
+              >
+                Lihat Hasil Magang →
+              </button>
+            ) : sessionEnergy <= 0 && !sessionActive ? (
+              <button
+                className="mt-3 border-3 border-[#241922] bg-[#86efac] px-5 py-3 font-black shadow-[4px_4px_0_#4a8c55] transition-all duration-200 hover:scale-[1.04] hover:-translate-y-0.5 hover:bg-[#bbf7d0] hover:shadow-[6px_6px_0_#241922] active:scale-[0.98]"
+                onClick={advanceToNextDay}
+              >
+                Lanjut ke Hari ke-{currentDay + 1} (+Pulihkan Energy Harian) →
+              </button>
+            ) : sessionActive ? (
+              <div className="mt-3 inline-block border-3 border-[#241922] bg-[#4fc7bd] px-5 py-3 font-black text-[#241922] shadow-[4px_4px_0_#1f6f68]">
+                ⏱ Sesi Aktif • {formatTime(sessionSecondsLeft)}
+              </div>
+            ) : (
+              <button
+                className="mt-3 border-3 border-[#241922] bg-[#f6c85f] px-5 py-3 font-black shadow-[4px_4px_0_#b17732] transition-all duration-200 enabled:hover:scale-[1.04] enabled:hover:-translate-y-0.5 enabled:hover:bg-[#fbd373] enabled:hover:shadow-[6px_6px_0_#241922] enabled:active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50"
+                onClick={startSession}
+                disabled={sessionEnergy <= 0 || !selectedDivision}
+              >
+                {`Mulai Sesi ${completedSessions + 1} • 07:00 (-1 Energy Sesi)`}
+              </button>
+            )
           )}
         </div>
       </div>
-
       {/* Force Landscape Overlay */}
       <div className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#241922] text-[#fff1c9] lg:hidden landscape:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 animate-pulse text-[#f9a8d4]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -1333,7 +1333,8 @@ export default function PlayPage() {
                       SKILL: {division.skillName}
                     </span>
                   </button>
-                ))}
+            )
+                )}
               </div>
             </div>
           </div>
@@ -1489,6 +1490,7 @@ export default function PlayPage() {
               Bicara dengan Maya [E]
             </button>
           )}
+        </div>
       </section>
     
         {!(showStoryModal || showDivisionModal || showTaskModal || showFeedbackModal) && (
