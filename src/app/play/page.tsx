@@ -946,7 +946,7 @@ export default function PlayPage() {
     <main className="min-h-screen bg-[#35131f] px-4 py-5 text-[#241922]">
 
       {/* Force Landscape Overlay */}
-      <div className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#241922] text-[#fff1c9] md:hidden landscape:hidden">
+      <div className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#241922] text-[#fff1c9] lg:hidden landscape:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 animate-pulse text-[#f9a8d4]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
         </svg>
@@ -1486,7 +1486,7 @@ export default function PlayPage() {
       </section>
     
         {/* Mobile Controls */}
-        <div className="md:hidden fixed bottom-6 left-6 grid grid-cols-3 gap-2 opacity-80 z-50 touch-none select-none">
+        <div className="lg:hidden fixed bottom-6 left-6 grid grid-cols-3 gap-2 opacity-80 z-50 touch-none select-none">
           <div />
           <button 
             className="bg-[#f6c85f] border-2 border-[#241922] p-4 rounded-xl shadow-[2px_2px_0_#b17732] font-black text-xl flex items-center justify-center active:scale-95" 
@@ -1523,7 +1523,7 @@ export default function PlayPage() {
           >D</button>
         </div>
 
-        <div className="md:hidden fixed bottom-6 right-6 opacity-80 z-50 touch-none select-none">
+        <div className="lg:hidden fixed bottom-6 right-6 opacity-80 z-50 touch-none select-none">
           <button 
             className="bg-[#f9a8d4] text-[#831843] border-3 border-[#831843] w-20 h-20 rounded-full shadow-[4px_4px_0_#a74f7a] font-black text-2xl active:scale-95 flex items-center justify-center" 
             onClick={() => interact()}
