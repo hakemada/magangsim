@@ -1104,36 +1104,22 @@ export default function PlayPage() {
           </div>
         </div>
 
-        {/* Karpet merah: Spawn → Maya (diagonal path) */}
+        {/* Karpet merah: Spawn area */}
         <div
-          className="pointer-events-none absolute z-[1]"
+          className="pointer-events-none absolute z-[1] flex items-center justify-center"
           style={{
-            left: "12%",
-            top: "54%",
-            width: "20%",
-            height: "4%",
+            left: "12.5%",
+            top: "66.7%",
+            width: "8%",
+            height: "10%",
+            transform: "translate(-50%, -50%)",
             backgroundColor: "#8b1a1a",
-            border: "2px solid #5c0e0e",
-            transform: "rotate(-35deg)",
-            transformOrigin: "left center",
-            boxShadow: "inset 0 0 0 2px #a52a2a, inset 0 2px 4px rgba(0,0,0,0.3)",
+            border: "3px solid #5c0e0e",
+            boxShadow: "inset 0 0 0 3px #a52a2a, inset 0 2px 4px rgba(0,0,0,0.3)",
           }}
-        />
-        {/* Karpet merah: Maya → Meja Divisi (horizontal path) */}
-        <div
-          className="pointer-events-none absolute z-[1]"
-          style={{
-            left: "28%",
-            top: "44%",
-            width: "52%",
-            height: "4%",
-            backgroundColor: "#8b1a1a",
-            border: "2px solid #5c0e0e",
-            transform: "rotate(5deg)",
-            transformOrigin: "left center",
-            boxShadow: "inset 0 0 0 2px #a52a2a, inset 0 2px 4px rgba(0,0,0,0.3)",
-          }}
-        />
+        >
+          <span className="text-[10px] font-black text-[#5c0e0e] opacity-50 tracking-widest">SPAWN</span>
+        </div>
 
 
         {/* Properti tambahan meja divisi: Bawah */}
