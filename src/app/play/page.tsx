@@ -1022,7 +1022,7 @@ export default function PlayPage() {
           className="pointer-events-none absolute inset-0 h-full w-full select-none object-cover [image-rendering:pixelated]"
         />
 
-        <div className="absolute left-3 top-3 z-20 max-w-xs border-3 border-[#241922] bg-[#fffdf7] p-2.5 text-xs shadow-[4px_4px_0_rgba(35,20,25,0.18)]">
+        <div className="absolute left-3 top-16 z-20 max-w-xs border-3 border-[#241922] bg-[#fffdf7] p-2.5 text-xs shadow-[4px_4px_0_rgba(35,20,25,0.18)]">
           <b className="block text-xs">OBJECTIVE • HARI KE-{currentDay}</b>
           <span className="mt-0.5 block leading-4">{getObjective()}</span>
         </div>
