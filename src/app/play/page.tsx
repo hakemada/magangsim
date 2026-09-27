@@ -91,6 +91,30 @@ const DESK_POSITION = { x: 750, y: 330 };
 const PANTRY_POSITION = { x: 500, y: 235 };
 const INTERACTION_DISTANCE = 125;
 
+// Collision boundaries
+const DESK_COLLISION = { x1: 680, y1: 260, x2: 830, y2: 400 }; // Meja Finance area
+const MAP_BOUNDS = { minX: 20, maxX: 900, minY: 20, maxY: 400 }; // maxY lowered to Healing line
+
+function isColliding(x: number, y: number) {
+  // Check desk collision (Finance desk)
+  if (
+    x > DESK_COLLISION.x1 - 20 &&
+    x < DESK_COLLISION.x2 + 20 &&
+    y > DESK_COLLISION.y1 - 20 &&
+    y < DESK_COLLISION.y2 + 20
+  ) {
+    return true;
+  }
+  return false;
+}
+
+function clampPosition(x: number, y: number) {
+  return {
+    x: Math.max(MAP_BOUNDS.minX, Math.min(MAP_BOUNDS.maxX, x)),
+    y: Math.max(MAP_BOUNDS.minY, Math.min(MAP_BOUNDS.maxY, y)),
+  };
+}
+
 function getTodayDateKey() {
   return new Date().toISOString().slice(0, 10);
 }
@@ -183,10 +207,13 @@ export default function PlayPage() {
       }
       setIsMoving(true);
 
-      setPosition((current) => ({
-        x: Math.max(20, Math.min(900, current.x + moveX)),
-        y: Math.max(20, Math.min(470, current.y + moveY)),
-      }));
+      setPosition((current) => {
+        const clamped = clampPosition(current.x + moveX, current.y + moveY);
+        if (isColliding(clamped.x, clamped.y)) {
+          return current;
+        }
+        return clamped;
+      });
     };
     
     step();
@@ -450,10 +477,13 @@ export default function PlayPage() {
         setIsMoving(false);
       }, 220);
 
-      setPosition((current) => ({
-        x: Math.max(20, Math.min(900, current.x + moveX)),
-        y: Math.max(20, Math.min(470, current.y + moveY)),
-      }));
+      setPosition((current) => {
+        const clamped = clampPosition(current.x + moveX, current.y + moveY);
+        if (isColliding(clamped.x, clamped.y)) {
+          return current;
+        }
+        return clamped;
+      });
     }
 
     function handleKeyUp(event: KeyboardEvent) {
