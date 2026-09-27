@@ -1076,7 +1076,7 @@ export default function PlayPage() {
 
         <div className="absolute left-[9%] top-[72%] z-10 flex flex-col items-center text-xs font-black">
           <span className="whitespace-nowrap border-2 border-[#241922] bg-[#fff8e5] px-2 py-0.5 text-[10px] shadow-[2px_2px_0_#180b11]">
-            SOFA LOUNGE
+            SOFA PIXEL
           </span>
         </div>
 
@@ -1144,7 +1144,7 @@ export default function PlayPage() {
 
         <div className="absolute left-[49%] top-[38%] z-10 flex flex-col items-center text-xs font-black">
           <span className="mb-1 whitespace-nowrap border-2 border-[#241922] bg-[#fff8e5] px-2 py-0.5 text-[10px] shadow-[2px_2px_0_#180b11]">
-            PANTRY
+            HEALING
           </span>
           <div className="flex items-center justify-center">
             <SpriteFrame
