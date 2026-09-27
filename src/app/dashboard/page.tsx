@@ -94,6 +94,14 @@ export default function DashboardPage() {
 
           <button
             type="button"
+            className="border-3 border-[#241922] bg-[#a78bfa] px-4 py-3 font-black shadow-[4px_4px_0_#6d28d9] transition-all duration-200 hover:scale-[1.04] hover:-translate-y-0.5 hover:bg-[#c4b5fd] hover:shadow-[6px_6px_0_#241922] active:scale-[0.98]"
+            onClick={() => router.push("/pricing")}
+          >
+            💎 Produk Berbayar
+          </button>
+
+          <button
+            type="button"
             className="border-3 border-[#241922] bg-[#fda4af] px-4 py-3 font-black shadow-[4px_4px_0_#9f1239] transition-all duration-200 hover:scale-[1.04] hover:-translate-y-0.5 hover:bg-[#fecdd3] hover:shadow-[6px_6px_0_#241922] active:scale-[0.98]"
             onClick={logout}
           >
