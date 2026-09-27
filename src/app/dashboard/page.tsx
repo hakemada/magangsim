@@ -81,7 +81,7 @@ export default function DashboardPage() {
             className="border-3 border-[#241922] bg-[#f6c85f] px-4 py-3 font-black shadow-[4px_4px_0_#b17732] transition-all duration-200 hover:scale-[1.04] hover:-translate-y-0.5 hover:bg-[#fbd373] hover:shadow-[6px_6px_0_#241922] active:scale-[0.98]"
             onClick={() => router.push("/play")}
           >
-            Lanjutkan Game
+            Mulai Game
           </button>
 
           <button

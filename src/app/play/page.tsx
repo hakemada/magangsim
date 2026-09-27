@@ -93,7 +93,7 @@ const INTERACTION_DISTANCE = 125;
 
 // Collision boundaries
 const DESK_COLLISION = { x1: 680, y1: 260, x2: 830, y2: 400 }; // Meja Finance area
-const MAP_BOUNDS = { minX: 20, maxX: 900, minY: 20, maxY: 400 }; // maxY lowered to Healing line
+const MAP_BOUNDS = { minX: 20, maxX: 900, minY: 160, maxY: 400 }; // minY raised to window line, maxY at Healing line
 
 function isColliding(x: number, y: number) {
   // Check desk collision (Finance desk)
