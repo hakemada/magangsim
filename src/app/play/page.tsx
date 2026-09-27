@@ -1022,12 +1022,12 @@ export default function PlayPage() {
           className="pointer-events-none absolute inset-0 h-full w-full select-none object-cover [image-rendering:pixelated]"
         />
 
-        <div className="absolute left-3 top-16 z-20 max-w-xs border-3 border-[#241922] bg-[#fffdf7] p-2.5 text-xs shadow-[4px_4px_0_rgba(35,20,25,0.18)]">
+        <div className="absolute left-3 top-16 z-20 max-w-xs border-3 border-[#241922] bg-[#fffdf7]/75 p-2.5 text-xs shadow-[4px_4px_0_rgba(35,20,25,0.18)] backdrop-blur-sm">
           <b className="block text-xs">OBJECTIVE • HARI KE-{currentDay}</b>
           <span className="mt-0.5 block leading-4">{getObjective()}</span>
         </div>
 
-        <div className="absolute right-3 top-3 z-20 grid grid-cols-2 gap-x-3 gap-y-0.5 border-3 border-[#241922] bg-[#fffdf7] p-2.5 text-right text-[11px] shadow-[4px_4px_0_rgba(35,20,25,0.18)]">
+        <div className="absolute right-3 top-16 z-20 grid grid-cols-2 gap-x-3 gap-y-0.5 border-3 border-[#241922] bg-[#fffdf7]/75 p-2.5 text-right text-[11px] shadow-[4px_4px_0_rgba(35,20,25,0.18)] backdrop-blur-sm">
           <span >DIVISI</span>
           <b>{selectedDivision?.name ?? "-"}</b>
 
@@ -1260,8 +1260,8 @@ export default function PlayPage() {
         </div>
 
         {showStoryModal && (
-          <div className="absolute inset-0 z-40 grid place-items-center bg-[#241922]/75 p-5">
-            <div className="w-full max-w-xl border-4 border-[#241922] bg-[#fff8e5] p-5 shadow-[8px_8px_0_#180b11]">
+          <div className="absolute inset-0 z-40 grid place-items-center bg-[#241922]/75 p-3 md:p-5 overflow-y-auto">
+            <div className="w-full max-w-xl border-4 border-[#241922] bg-[#fff8e5] p-4 md:p-5 shadow-[8px_8px_0_#180b11] max-h-[90%] overflow-y-auto">
               <p className="text-center text-xs font-black tracking-[0.2em] text-[#7c3146]">
                 MAYA • MENTOR MAGANG
               </p>
