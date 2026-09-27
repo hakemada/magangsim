@@ -1104,21 +1104,36 @@ export default function PlayPage() {
           </div>
         </div>
 
-        <div className="absolute left-[9%] top-[72%] z-10 flex flex-col items-center text-xs font-black">
-          <div className="mb-1 flex flex-col items-center">
-            {/* Pixel sofa visual */}
-            <div className="relative h-8 w-16 border-2 border-[#241922] bg-[#c084fc] shadow-[2px_2px_0_#180b11]">
-              <div className="absolute -top-2 left-0 h-3 w-3 border-2 border-[#241922] bg-[#a855f7]" />
-              <div className="absolute -top-2 right-0 h-3 w-3 border-2 border-[#241922] bg-[#a855f7]" />
-              <div className="absolute bottom-0 left-1 h-1.5 w-2 bg-[#241922]" />
-              <div className="absolute bottom-0 right-1 h-1.5 w-2 bg-[#241922]" />
-            </div>
-          </div>
-          <span className="whitespace-nowrap border-2 border-[#241922] bg-[#fff8e5] px-2 py-0.5 text-[10px] shadow-[2px_2px_0_#180b11]">
-            SOFA PIXEL
-          </span>
-        </div>
-
+        {/* Karpet merah: Spawn → Maya (diagonal path) */}
+        <div
+          className="pointer-events-none absolute z-[1]"
+          style={{
+            left: "12%",
+            top: "54%",
+            width: "20%",
+            height: "4%",
+            backgroundColor: "#8b1a1a",
+            border: "2px solid #5c0e0e",
+            transform: "rotate(-35deg)",
+            transformOrigin: "left center",
+            boxShadow: "inset 0 0 0 2px #a52a2a, inset 0 2px 4px rgba(0,0,0,0.3)",
+          }}
+        />
+        {/* Karpet merah: Maya → Meja Divisi (horizontal path) */}
+        <div
+          className="pointer-events-none absolute z-[1]"
+          style={{
+            left: "28%",
+            top: "44%",
+            width: "52%",
+            height: "4%",
+            backgroundColor: "#8b1a1a",
+            border: "2px solid #5c0e0e",
+            transform: "rotate(5deg)",
+            transformOrigin: "left center",
+            boxShadow: "inset 0 0 0 2px #a52a2a, inset 0 2px 4px rgba(0,0,0,0.3)",
+          }}
+        />
 
 
         {/* Properti tambahan meja divisi: Bawah */}
