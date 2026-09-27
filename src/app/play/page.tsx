@@ -947,7 +947,7 @@ export default function PlayPage() {
   return (
     <main className="min-h-screen bg-[#35131f] px-4 py-5 text-[#241922]">
       {/* Top Center Controls */}
-      <div className="fixed top-6 left-1/2 -translate-x-1/2 z-40 opacity-85 transition-opacity hover:opacity-100 flex flex-col items-center pointer-events-none">
+      <div className="fixed top-14 left-1/2 -translate-x-1/2 z-40 opacity-85 transition-opacity hover:opacity-100 flex flex-col items-center pointer-events-none">
         <div className="pointer-events-auto">
           {storySeen && (
             completedSessions >= 21 ? (
