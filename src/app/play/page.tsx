@@ -1080,18 +1080,7 @@ export default function PlayPage() {
           </span>
         </div>
 
-        {/* Properti tambahan meja divisi: Atas */}
-        <div className="pointer-events-none absolute right-[15%] top-[35%] z-10 flex items-center justify-center">
-          <SpriteFrame
-            src="/assets/Julia_PC.png"
-            frameWidth={64}
-            frameHeight={64}
-            totalFrames={6}
-            frame={(animTick + 1) % 6}
-            scale={1.8}
-            ariaLabel="Properti Meja Atas"
-          />
-        </div>
+
 
         {/* Properti tambahan meja divisi: Bawah */}
         <div className="pointer-events-none absolute right-[15%] top-[68%] z-10 flex items-center justify-center">
@@ -1304,8 +1293,8 @@ export default function PlayPage() {
         )}
 
         {showDivisionModal && (
-          <div className="absolute inset-0 z-40 grid place-items-center bg-[#241922]/75 p-5">
-            <div className="w-full max-w-3xl border-4 border-[#241922] bg-[#fff8e5] p-5 shadow-[8px_8px_0_#180b11]">
+          <div className="absolute inset-0 z-40 grid place-items-center bg-[#241922]/75 p-3 md:p-5 overflow-y-auto">
+            <div className="w-full max-w-3xl border-4 border-[#241922] bg-[#fff8e5] p-4 md:p-5 shadow-[8px_8px_0_#180b11] max-h-[90%] overflow-y-auto">
               <p className="text-center text-xs font-black tracking-[0.2em] text-[#7c3146]">
                 PILIH POSISI MAGANG
               </p>
