@@ -69,7 +69,7 @@ export default function Home() {
             />
           </div>
 
-          <h1 className="text-4xl tracking-tighter text-[#fff1c9] drop-shadow-[4px_4px_0_#1c0a10]" style={{ fontFamily: "var(--font-press-start)" }}>
+          <h1 className="text-4xl tracking-tighter text-[#fff1c9] drop-shadow-[4px_4px_0_#1c0a10]">
             MAGANG SIM
           </h1>
 

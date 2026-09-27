@@ -64,7 +64,8 @@ function SpriteFrame({
     />
   );
 }
-type SavedProgress = {
+
+type SavedProgress = {
   divisionId: DivisionId | null;
   sessionEnergy: number;
   completedSessions: number;
@@ -93,7 +94,8 @@ const INTERACTION_DISTANCE = 125;
 function getTodayDateKey() {
   return new Date().toISOString().slice(0, 10);
 }
-function formatTime(totalSeconds: number) {
+
+function formatTime(totalSeconds: number) {
   const minutes = Math.floor(totalSeconds / 60);
   const seconds = totalSeconds % 60;
   return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
@@ -1026,29 +1028,29 @@ export default function PlayPage() {
         </div>
 
         <div className="absolute right-3 top-3 z-20 grid grid-cols-2 gap-x-3 gap-y-0.5 border-3 border-[#241922] bg-[#fffdf7] p-2.5 text-right text-[11px] shadow-[4px_4px_0_rgba(35,20,25,0.18)]">
-          <span style={{ fontFamily: "var(--font-silkscreen)" }}>DIVISI</span>
+          <span >DIVISI</span>
           <b>{selectedDivision?.name ?? "-"}</b>
 
-          <span style={{ fontFamily: "var(--font-silkscreen)" }}>SESI</span>
+          <span >SESI</span>
           <b>
             {Math.min(completedSessions + 1, 21)}/21 ({currentSession?.difficulty ?? "Dasar"})
           </b>
 
-          <span style={{ fontFamily: "var(--font-silkscreen)" }}>WAKTU SESI</span>
+          <span >WAKTU SESI</span>
           <b className={sessionActive ? "text-[#b91c1c]" : ""}>
             {sessionActive ? formatTime(sessionSecondsLeft) : "07:00"}
           </b>
 
-          <span style={{ fontFamily: "var(--font-silkscreen)" }}>ENERGY SESI</span>
+          <span >ENERGY SESI</span>
           <b>
             {sessionEnergy}/{MAX_SESSION_ENERGY}
           </b>
 
 
-          <span style={{ fontFamily: "var(--font-silkscreen)" }}>{selectedDivision?.skillName ?? "SKILL"}</span>
+          <span >{selectedDivision?.skillName ?? "SKILL"}</span>
           <b>{skill}</b>
 
-          <span style={{ fontFamily: "var(--font-silkscreen)" }}>REPUTASI</span>
+          <span >REPUTASI</span>
           <b>{reputation}</b>
         </div>
 
@@ -1359,7 +1361,7 @@ export default function PlayPage() {
 
               <div className="mt-4 border-3 border-[#241922] bg-[#fff0b8] p-3 text-sm leading-6">
                 <b>SKENARIO KERJA</b>
-                <div className="mt-2" style={{ fontFamily: "var(--font-vt323)", fontSize: "1.15rem", lineHeight: "1.3" }}>
+                <div className="mt-2" >
                   {currentChallenge.scenario.split('\n').map((line, i) => 
                     line.trim().startsWith('|') ? (
                       <div key={i} className="whitespace-pre bg-white/50 px-1">{line}</div>
