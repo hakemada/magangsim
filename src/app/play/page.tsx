@@ -664,7 +664,7 @@ export default function PlayPage() {
   function usePantry() {
     if (pantryUsedToday) {
       setNotice(
-        "Pantry sudah digunakan pada sesi ini. Gunakan energy dengan bijak.",
+        "Healing sudah digunakan pada sesi ini. Gunakan energy dengan bijak.",
       );
       return;
     }
@@ -684,7 +684,7 @@ export default function PlayPage() {
     });
 
     setNotice(
-      `Kamu beristirahat di Pantry. Energi sesi +1.`,
+      `Kamu beristirahat di Healing. Energi sesi +1.`,
     );
   }
 
@@ -879,7 +879,7 @@ export default function PlayPage() {
       return;
     }
 
-    setNotice("Dekati Maya, meja divisi, atau Pantry untuk berinteraksi.");
+    setNotice("Dekati Maya, meja divisi, atau Healing untuk berinteraksi.");
   }
 
   function getInteractionPrompt() {
@@ -889,8 +889,8 @@ export default function PlayPage() {
 
     if (nearTarget === "pantry") {
       return pantryUsedToday
-        ? "Pantry sudah digunakan pada sesi ini"
-        : "Tekan E untuk istirahat di Pantry (+30 Energy kerja)";
+        ? "Healing sudah digunakan pada sesi ini"
+        : "Tekan E untuk istirahat di Healing (+30 Energy kerja)";
     }
 
     if (nearTarget === "desk") {
@@ -1075,6 +1075,15 @@ export default function PlayPage() {
         </div>
 
         <div className="absolute left-[9%] top-[72%] z-10 flex flex-col items-center text-xs font-black">
+          <div className="mb-1 flex flex-col items-center">
+            {/* Pixel sofa visual */}
+            <div className="relative h-8 w-16 border-2 border-[#241922] bg-[#c084fc] shadow-[2px_2px_0_#180b11]">
+              <div className="absolute -top-2 left-0 h-3 w-3 border-2 border-[#241922] bg-[#a855f7]" />
+              <div className="absolute -top-2 right-0 h-3 w-3 border-2 border-[#241922] bg-[#a855f7]" />
+              <div className="absolute bottom-0 left-1 h-1.5 w-2 bg-[#241922]" />
+              <div className="absolute bottom-0 right-1 h-1.5 w-2 bg-[#241922]" />
+            </div>
+          </div>
           <span className="whitespace-nowrap border-2 border-[#241922] bg-[#fff8e5] px-2 py-0.5 text-[10px] shadow-[2px_2px_0_#180b11]">
             SOFA PIXEL
           </span>
