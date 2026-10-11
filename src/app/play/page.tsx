@@ -881,7 +881,7 @@ export default function PlayPage() {
     if (nearTarget === "maya") {
       if (!storySeen) {
         openStory([
-          "Selamat datang di Nusantara Works.",
+          "Selamat datang di Magang SIM.",
           "Aku Maya, mentor kamu selama orientasi magang ini.",
           "Di sini kamu akan mencoba situasi kerja nyata melalui sesi singkat 7 menit, challenge bertahap, dan feedback langsung.",
           "Sebelum mulai, pilih posisi magang yang paling ingin kamu eksplorasi.",
